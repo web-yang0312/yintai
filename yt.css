@@ -1,0 +1,156 @@
+body,li,ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+ text-decoration: none;	
+}
+.back{
+     width: 100%;
+     position: relative;
+     border-top: 1px solid #000;
+     margin-top: 100px;
+}    
+.back .back-1{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+    width: 100%;
+    height: 470px;
+}
+#first{
+	opacity: 1;
+}
+.banner{
+	width: 1200px;
+	height: 470px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner .banner-pic{
+	width: 100%;
+	height: 470px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+    opacity: 0;
+}
+.banner .first{
+	opacity: 1;
+	background: #E5004F;
+}
+.banner-left,.banner-right{
+	position: absolute;
+	height: 60px;
+	width: 30px;
+	background: #493C00;
+	font-size: 33px;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	background: rgba(0,0,0,0.3);
+	filter:alpha(opacity=30);
+	display:none;
+}
+.banner-left{
+	left:210px;
+	top:205px;
+}
+.banner-right{
+	right:200px;
+	top:205px;
+}
+#rect,#less,#more{
+     z-index: 8;
+    }
+.rectangle{
+	width: 200px;
+	height: 8px;
+	position: absolute;
+	right: 487px;
+	/*top: 440px;*/
+	bottom: 10px;
+}
+.rectangle-li{
+	height: 8px;
+	width: 30px;
+    background: #211616;
+    margin-left: 1px;
+    float: left;
+}
+.left-banner{
+    width: 210px;
+    height: 470px;
+    background: #333333;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 9;
+    float: left;
+    position: relative;
+}
+.left-banner .chang{
+	width: 100%;
+	height: 46px;
+	border-bottom: 1px solid #515151;
+	position: relative;
+	line-height: 46px;
+}
+.left-banner .chang:hover{
+	background: #DF127B;
+}
+.chang img{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 17px;
+    height: 17px;
+    display: inline;
+}
+.chang .bt{
+	font-size: 15px;
+	color: #fff;
+	margin-top: 20px;
+    margin-left: 50px;
+    text-decoration: none; 
+}
+.chang span{
+	color: #fff;
+	margin: 0 5px;
+}
+.chang .xp{
+	color: #fff;
+	font-size: 11px;
+	text-decoration: none;
+}
+.chang .xp:hover{
+	text-decoration: underline;
+}
+.left-banner .gd{
+	position: absolute;
+	right: 5px;
+	top:0;
+}
+.right-banner { 
+	width: 200px;
+	height: 470px;
+	position: absolute;
+	left: 1000px;
+	top:0;
+	float: right;
+	z-index: 9;
+}
+.banner-more{
+	position: absolute;
+	left:100%;
+	top:10px;
+	float: left;
+	width:495px;
+	height:300px;
+    background: rgba(0,0,0,0.8);
+    padding-bottom: 10px;
+    display: none;
+}
